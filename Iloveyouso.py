@@ -1,8 +1,10 @@
-print("IMESSAGE:" "you have a new message from ayme!")
+print("NEW MESSAGE:" " you have a new message from ayme!")
 print("-------------------------------------------")
-answer = (input("I love you so, do you love me too?: "))
+print("-------------------------------------------")
 
-if answer in ["Yes", "I love you too"]:
-    print ("Thank you, honey, xoxo")
+answer = (input("MESSAGE: Hey, It´s me, I love you so, do you love me too?: ")).lower()
+
+if answer in ["yes", "love you too"]:
+    print ("Thanks, honey, xoxo")
 else:
     print ("Oh, I see...but I love you!")
