@@ -8,5 +8,5 @@ for i in range (0, 11, 2):
     print(f"10 x {i} = {resultado}") 
 
 print ("--------------------------------------")
-print ("Congrats, darling!!")
+print ("Congrats, my darling!!")
 print ("--------------------------------------")
